@@ -13,6 +13,7 @@
 		453D81132BAAF38C0095F2C0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 453D81122BAAF38C0095F2C0 /* Preview Assets.xcassets */; };
 		453D811A2BAAFB580095F2C0 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453D81192BAAFB580095F2C0 /* Model.swift */; };
 		453D81202BAAFD5F0095F2C0 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453D811F2BAAFD5F0095F2C0 /* Colors.swift */; };
+		453D81222BAAFECB0095F2C0 /* Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453D81212BAAFECB0095F2C0 /* Matrix.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		453D81122BAAF38C0095F2C0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		453D81192BAAFB580095F2C0 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		453D811F2BAAFD5F0095F2C0 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		453D81212BAAFECB0095F2C0 /* Matrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Matrix.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				453D810D2BAAF38A0095F2C0 /* ContentView.swift */,
 				453D81192BAAFB580095F2C0 /* Model.swift */,
 				453D811F2BAAFD5F0095F2C0 /* Colors.swift */,
+				453D81212BAAFECB0095F2C0 /* Matrix.swift */,
 				453D810F2BAAF38C0095F2C0 /* Assets.xcassets */,
 				453D81112BAAF38C0095F2C0 /* Preview Content */,
 			);
@@ -144,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				453D811A2BAAFB580095F2C0 /* Model.swift in Sources */,
+				453D81222BAAFECB0095F2C0 /* Matrix.swift in Sources */,
 				453D81202BAAFD5F0095F2C0 /* Colors.swift in Sources */,
 				453D810E2BAAF38A0095F2C0 /* ContentView.swift in Sources */,
 				453D810C2BAAF38A0095F2C0 /* calculadoraApp.swift in Sources */,
