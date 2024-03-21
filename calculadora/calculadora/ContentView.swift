@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @StateObject var viewModel = ViewModel()
+    
     var body: some View {
         ZStack {
             Color.black.ignoresSafeArea()
@@ -17,17 +20,19 @@ struct ContentView: View {
                         Spacer()
                         HStack {
                             Spacer()
-                            Text("0")
+                            Text(viewModel.textFieldValue)
                                 .foregroundStyle(.white)
                                 .font(.system(size: 100, weight: .regular))
                                 .frame(height: 100)
                                 .padding(.trailing, 20)
                         }
                     }
-                    VerticalButtonStack(data: Matrix.firstSectionData,
+                    VerticalButtonStack(viewModel: viewModel,
+                                        data: Matrix.firstSectionData,
                                         columns: Matrix.firstSectionGrid(proxy.size.width * 0.25),
                                         width: proxy.size.width)
-                    VerticalButtonStack(data: Matrix.secondSectionData,
+                    VerticalButtonStack(viewModel: viewModel,
+                                        data: Matrix.secondSectionData,
                                         columns: Matrix.secondSectionGrid(proxy.size.width * 0.25),
                                         width: proxy.size.width)
                 }
