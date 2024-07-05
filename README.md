@@ -1,4 +1,4 @@
-# calculadora-swiftui
+# Calculador clon iOS SwiftUI
  
 Calculator es una aplicación iOS que ofrece funciones básicas de cálculo, con un diseño similar al de la calculadora nativa de iOS. Puedes realizar operaciones matemáticas simples como suma, resta, multiplicación y división de manera intuitiva y rápida. Desarrollada con Swift y SwiftUI, Calculator proporciona una interfaz familiar y fácil de usar para realizar cálculos en tu dispositivo iOS.
 
